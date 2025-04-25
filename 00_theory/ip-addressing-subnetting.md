@@ -1,5 +1,4 @@
 # IP Addressing & Subnetting
-# 1
 IP addresses are unique identifiers for devices on a network. Subnetting allows you to divide networks for better organization and security.
 
 ---
