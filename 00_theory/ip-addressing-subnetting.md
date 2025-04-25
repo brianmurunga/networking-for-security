@@ -118,6 +118,8 @@ The original `/24` network has been successfully divided into two `/25` subnets:
 
   # Windows (built-in)
   netsh interface ip show config
+  to save the configuration you can use
+  netsh dump > C:\Backup\network_config.txt --specify the location here
 
 ---
 
