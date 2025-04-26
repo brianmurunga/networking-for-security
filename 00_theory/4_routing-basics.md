@@ -1,38 +1,31 @@
-# Routing Basics
+# 🚦 **Routing Basics: The Internet's Traffic Control System (And How Hackers Exploit It)**
 
-**Routing** is the process of selecting paths in a network to send data packets between devices.
-
----
-
-## 📦 Types of Routing
-
-| Type       | Description                            | Example         |
-|------------|----------------------------------------|-----------------|
-| Static     | Manually configured routes             | Small networks  |
-| Dynamic    | Auto-updated via protocols             | RIP, OSPF, EIGRP|
-| Default    | Used when no specific route is known   | 0.0.0.0/0       |
+Routing isn't just about connectivity - it's about **control**. Whoever controls the routes controls the traffic. Let's break down how it works and where the vulnerabilities lie.
 
 ---
 
-## 🗺️ Key Concepts
+## 📦 **Types of Routing: The Good, The Bad, and The Risky**
 
-- **Router** – A device that connects different networks
-- **Routing Table** – List of known routes
-- **Hop** – One segment of a route
-- **Metric** – Value to determine best route
+| Type       | Pros                  | Cons                  | Security Risk                  | Best For          |
+|------------|-----------------------|-----------------------|--------------------------------|-------------------|
+| **Static** | Simple, predictable   | Doesn't adapt         | 🚨 Manual errors = black holes | Small networks    |
+| **Dynamic**| Self-healing          | Complex               | 🚨 Route poisoning attacks    | Enterprise nets   |
+| **Default**| Catch-all safety net  | May create suboptimal paths | 🚨 Can leak internal traffic | Edge routers      |
 
----
-
-## 🔧 Dynamic Routing Protocols
-
-- **RIP** – Simple, distance-vector, max 15 hops
-- **OSPF** – Link-state, fast and scalable
-- **EIGRP** – Cisco proprietary, hybrid protocol
-- **BGP** – Used on the internet (between ISPs)
+💡 **Pro Tip**: In 2018, a **BGP hijack** by Russian ISP Rostelecom redirected traffic from AWS, Google, and others. Always verify routes!
 
 ---
 
-## 📌 Summary
-- Routing is critical for inter-network communication
-- Understand static vs dynamic
-- Know how to read a routing table
+## 🗺️ **Key Concepts Explained**
+
+### **The Router: Internet's Traffic Cop**
+- Connects different networks (like your office LAN to the internet)
+- **Security Risk**: Compromised routers = complete network takeover
+- **Defense**: Change default creds, disable telnet (use SSH)
+
+### **Routing Table: The Router's Map**
+```bash
+# View routing table (Linux/Windows)
+route print          # Windows
+ip route show        # Linux
+netstat -rn          # macOS
