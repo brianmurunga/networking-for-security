@@ -13,9 +13,19 @@
 
 ---
 
+
 ## 🛠️ Installation
 
 ```bash
 sudo apt install nmap         # Debian/Ubuntu
 brew install nmap             # macOS (Homebrew)
 choco install nmap            # Windows (Chocolatey)
+
+---
+Command | Purpose
+- nmap <IP> | Basic scan
+- nmap -sS <IP> | Stealth SYN scan
+- nmap -sV <IP> | Detect services/versions
+- nmap -O <IP> | OS detection
+- nmap -p 1-1000 <IP> | Scan specific port range
+- nmap -s -A <IP> | Aggressive scan on all ports, not recommended for unauthorized networks
