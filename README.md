@@ -103,10 +103,10 @@ These help automate tasks, analyze traffic, and strengthen your practical skills
 | `00_theory/` | Core networking concepts | ✅ Completed | Solid foundation of topics |
 | `01_tools/` | Tool guides: Wireshark, Nmap, Packet Sniffing | ✅ Completed | Great for beginners |
 | `02_packet_tracer_labs/` | Cisco Packet Tracer labs | 🟡 In Progress | Add more `.pkt` files & setup instructions |
-| `03_pcap_analysis/` | Analyze `.pcap` traffic with Wireshark | 🔲 Not Started | Need `.pcap` samples and analysis guides |
-| `04_cheatsheets/` | Quick-reference guides | 🔲 Not Started | Subnetting, OSI model, commands, etc. |
+| `03_pcap_analysis/` | Analyze `.pcap` traffic with Wireshark | 🟡 In Progress | Need `.pcap` samples and analysis guides |
+| `04_cheatsheets/` | Quick-reference guides | 🟡 In Progress | Subnetting, OSI model, commands, etc. |
 | `05_resources/` | Learning resources + Python scripts | 🟡 In Progress | More useful scripts and links welcome |
-| `06_projects/` | Scenario-based mini projects | 🔲 Not Started | Real-world security/network projects |
+| `06_projects/` | Scenario-based mini projects | 🟡 In Progress | Real-world security/network projects |
 | `roadmap.md` | Suggested learning path | 🔲 Not Started | Beginner-to-advanced flow needed |
 | `README.md` | Project overview | ✅ Updated | Highlights added structure and goals |
 | `LICENSE` | Legal usage file | ✅ Added | MIT License |
