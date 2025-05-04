@@ -1,127 +1,140 @@
+# 🌐 Networking for Cybersecurity
 
-# 🌐 Networking Fundamentals & Labs
+> Learn networking from the ground up with a security-first mindset.
 
-Welcome to the **Networking Repository**, a well-organized collection of notes, tools, Packet Tracer labs, and Python scripts for learning and practicing computer networking. Whether you're a beginner or advancing your skills, this repo is crafted to help you understand core concepts, simulate network scenarios, and build real-world skills.
+Welcome to the **Networking for Cybersecurity** repo—a structured, beginner-to-advanced guide designed for students, self-learners, and aspiring InfoSec professionals who want to deeply understand how computer networks work and how to secure them.
 
----
-
-## 📁 Repository Structure
-
-```
-.
-├── 00_theory/              # Conceptual foundations of networking
-├── 01_tools/               # Key networking tools and how to use them
-├── 02_packet_tracer_labs/  # Practical labs for Cisco Packet Tracer
-├── 03_scripts/             # Python scripts for automation, sniffing, etc.
-└── banner/                 # Project cover image
-```
+Whether you're studying for certifications like **CCNA**, **CompTIA Network+**, or aiming for roles in **Cybersecurity**, **Forensics**, or **Security Engineering**, this repository walks you through key concepts, hands-on labs, tools, and real-world scenarios using platforms like **Cisco Packet Tracer**, **Wireshark**, **Nmap**, and Python scripting.
 
 ---
 
-## 🧠 00_theory/
+## 📌 Repo Highlights
 
-Core networking concepts explained simply:
-- `osi-model.md` – The 7-layer OSI model
-- `tcp-ip-model.md` – The 4-layer TCP/IP model
-- `ip-addressing-subnetting.md` – Binary math, subnetting, CIDR
-- `protocols-overview.md` – Common protocols like TCP, UDP, HTTP, etc.
-- `routing-basics.md` – Static vs dynamic routing explained
-- `vlans-trunking.md` – VLANs, trunk ports, and inter-VLAN routing
-- `acls.md` – Access Control Lists (standard, extended)
-- `nat-pat.md` – NAT types and Port Address Translation
-- `network-security-basics.md` – Firewalls, IDS/IPS, secure design
+- ✅ Beginner-friendly **theory notes** for core networking concepts
+- 🛠️ Practical **Packet Tracer labs** with `.pkt` files and configuration guides
+- 🔍 **PCAP analysis** labs for network forensics with Wireshark
+- ⚙️ Tutorials for essential tools like **Wireshark**, **Nmap**, and **Tcpdump**
+- 🐍 Real-world **Python scripts** for automation and analysis
+- 🔐 Security-aware scenarios & attack simulations
+- 📚 Curated resources, cheatsheets, and capstone project ideas
 
 ---
 
-## 🧰 01_tools/
+## 📖 Table of Contents
 
-Guides to using essential networking tools:
-- `wireshark-basics.md` – Capturing and analyzing packets
-- `nmap-intro.md` – Scanning and discovering hosts/services
-- `packet-sniffing.md` – Packet capture concepts and techniques
-
----
-
-## 🔬 02_packet_tracer_labs/
-
-Cisco Packet Tracer simulations with `.pkt` files and instructions:
-- `lab1_basic-lan-setup.pkt` – Simple LAN with 3 PCs and 2 switches
-- `lab2_vlan-routing.pkt` – VLAN config and inter-VLAN routing
-- `lab3_static-routing.pkt` – Configuring static routes between routers
-- `lab4_acl-implementation.pkt` – ACL filtering based on conditions
-- `lab5_nat-dhcp-config.pkt` – NAT + DHCP setup
-- `lab6_redundant-network.pkt` – Redundancy with EtherChannel or HSRP
-
-> 📎 These labs include `.pkt` files and accompanying `README.md` instructions.
+| Folder | Description |
+|--------|-------------|
+| [`00_theory`](./00_theory) | Core networking principles, models, addressing, protocols |
+| [`01_tools`](./01_tools) | Introductory guides to Wireshark, Nmap, and packet analysis |
+| [`02_packet_tracer_labs`](./02_packet_tracer_labs) | Pre-built and customizable Cisco Packet Tracer simulations |
+| [`03_pcap_analysis`](./03_pcap_analysis) | Hands-on `.pcap` files for investigating traffic and attacks |
+| [`04_cheatsheets`](./04_cheatsheets) | Quick references for subnetting, ports, OSI model, commands |
+| [`05_resources`](./05_resources) | Books, videos, websites, certifications, plus networking scripts |
+| └── [`scripts`](./05_resources/scripts) | Python scripts for subnetting, scanning, sniffing, and automation |
+| [`06_projects`](./06_projects) | Scenario-based learning and mini-project challenges |
 
 ---
 
-## 🐍 03_scripts/
+## 🚀 Who This Is For
 
-Python scripts for networking automation, scanning, and packet analysis:
-- `ping_sweep.py` – Discover live hosts in a subnet
-- `sniff_packets.py` – Live packet capture with Scapy
-- (more to be added: port scanner, ARP poisoning, config backup, etc.)
-
-> Many of these scripts use libraries like `scapy`, `nmap`, or `netmiko`.
-
----
-
-## 🎯 Goals
-
-- Help students and self-learners understand networking visually and practically
-- Provide real lab setups to practice exam topics (e.g., CCNA)
-- Encourage Python-based automation and network scripting
+- 📘 Networking or cybersecurity students
+- 🔍 Self-learners building a strong foundation
+- 🎯 Career switchers or IT professionals upskilling
+- 👩‍💻 Ethical hackers & forensics learners
+- 💼 Anyone preparing for CCNA / Network+ / Security+ / Blue Team roles
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ Tools You’ll Use
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/yourusername/networking-labs.git
-   cd networking-labs
-   ```
-
-2. Install Python dependencies (for `03_scripts/`)
-   ```bash
-   pip install scapy nmap netmiko
-   ```
-
-3. Open `.pkt` files using Cisco Packet Tracer for hands-on practice.
+- 🖥️ Cisco Packet Tracer  
+- 📡 Wireshark  
+- 🔍 Nmap  
+- 🧰 Tcpdump / Netcat  
+- 🐍 Python (for scanning, sniffing, automation)  
+- 💡 Platforms like TryHackMe, Hack The Box, and GNS3
 
 ---
 
-## 📚 Recommended for:
+## 🧠 Sample Topics Covered
 
-- Networking Students (especially CCNA/CompTIA Net+ candidates)
-- Cybersecurity Beginners
-- IT Professionals brushing up core concepts
-- Anyone curious about how the internet really works
-
----
-
-## 🙌 Contributing
-
-Contributions are welcome! Feel free to:
-- Add new Packet Tracer labs
-- Share scripts or command cheat sheets
-- Improve explanations or notes
+- OSI & TCP/IP Models  
+- IP Addressing, Subnetting, Routing  
+- VLANs, Trunking, ACLs  
+- NAT, DHCP, VPNs  
+- Packet Sniffing & Traffic Analysis  
+- Network Attacks & Mitigation  
+- Securing Network Topologies  
+- Network Scripting with Python
 
 ---
 
-## 📸 Banner
+## 🗺️ Learning Roadmap
 
-![Networking Banner](banner/Networking.png)
-
----
-
-## 📧 Connect
-
-Created by [Your Name]  
-📬 [YourEmail@example.com]  
-🔗 [LinkedIn](https://www.linkedin.com/in/your-profile) | [GitHub](https://github.com/yourusername)
+Follow the [📍 Roadmap here](./roadmap.md) to track your journey from beginner to security-aware networker.
 
 ---
 
-> 🌟 Star this repo if you find it helpful!
+## 🧪 Sample Python Scripts
+
+Located in [`05_resources/scripts`](./05_resources/scripts), you'll find Python scripts for:
+
+- Subnet calculator
+- Port scanner
+- Ping sweeper
+- Packet sniffer
+- ARP spoof detector
+- Network mapping
+- PCAP parser
+- WHOIS/IP geolocation checker
+
+These help automate tasks, analyze traffic, and strengthen your practical skills.
+
+---
+
+---
+
+### ✅ Project Progress & Contribution Guide
+
+| Section | Description | Status | Contribution Notes |
+|---------|-------------|--------|--------------------|
+| `00_theory/` | Core networking concepts | ✅ Completed | Solid foundation of topics |
+| `01_tools/` | Tool guides: Wireshark, Nmap, Packet Sniffing | ✅ Completed | Great for beginners |
+| `02_packet_tracer_labs/` | Cisco Packet Tracer labs | 🟡 In Progress | Add more `.pkt` files & setup instructions |
+| `03_pcap_analysis/` | Analyze `.pcap` traffic with Wireshark | 🔲 Not Started | Need `.pcap` samples and analysis guides |
+| `04_cheatsheets/` | Quick-reference guides | 🔲 Not Started | Subnetting, OSI model, commands, etc. |
+| `05_resources/` | Learning resources + Python scripts | 🟡 In Progress | More useful scripts and links welcome |
+| `06_projects/` | Scenario-based mini projects | 🔲 Not Started | Real-world security/network projects |
+| `roadmap.md` | Suggested learning path | 🔲 Not Started | Beginner-to-advanced flow needed |
+| `README.md` | Project overview | ✅ Updated | Highlights added structure and goals |
+| `LICENSE` | Legal usage file | ✅ Added | MIT License |
+| `.gitignore` | Clean repo from clutter | ✅ Added | Python, editor & environment configs |
+
+---
+
+### 🙋 How You Can Contribute
+
+We welcome your contributions! Here are some ways to help:
+
+- 🧪 Add new `.pkt` labs to `02_packet_tracer_labs/`
+- 📁 Share `.pcap` samples or write analysis walkthroughs for `03_pcap_analysis/`
+- 🧠 Create cheatsheets in `04_cheatsheets/` for quick reference
+- 🐍 Contribute useful Python scripts for networking tasks in `05_resources/`
+- 📚 Add learning materials, videos, cert links to `05_resources/`
+- 🛠️ Propose or build scenario-based projects for `06_projects/`
+- 🗺️ Draft a `roadmap.md` to guide new learners step-by-step
+
+
+---
+
+## ⭐ Author & Contact
+
+Built with ❤️ by [Your Name]  
+💼 Cybersecurity & Digital Forensics Enthusiast  
+🔗 [LinkedIn](https://www.linkedin.com/in/your-profile) • 📝 [Medium](https://medium.com/@your-handle) • 💻 [Portfolio](https://your-website.com)
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](./LICENSE).
