@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Get My IP - Display both public and private IP addresses
+Get My IP - Displays both public and private IP addresses
 """
 
 import socket
