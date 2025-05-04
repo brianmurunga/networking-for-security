@@ -4,7 +4,7 @@
 
 Welcome to the **Networking for Cybersecurity** repo—a structured, beginner-to-advanced guide designed for students, self-learners, and aspiring InfoSec professionals who want to deeply understand how computer networks work and how to secure them.
 
-Whether you're studying for certifications like **CCNA**, **CompTIA Network+**, or aiming for roles in **Cybersecurity**, **Forensics**, or **Security Engineering**, this repository walks you through key concepts, hands-on labs, tools, and real-world scenarios using platforms like **Cisco Packet Tracer**, **Wireshark**, **Nmap**, and Python scripting.
+This repository aims to walk you through key concepts, hands-on labs, tools, and real-world scenarios using platforms like **Cisco Packet Tracer**, **Wireshark**, **Nmap**, and Python scripting.
 
 ---
 
@@ -30,7 +30,7 @@ Whether you're studying for certifications like **CCNA**, **CompTIA Network+**, 
 | [`03_pcap_analysis`](./03_pcap_analysis) | Hands-on `.pcap` files for investigating traffic and attacks |
 | [`04_cheatsheets`](./04_cheatsheets) | Quick references for subnetting, ports, OSI model, commands |
 | [`05_resources`](./05_resources) | Books, videos, websites, certifications, plus networking scripts |
-| └── [`scripts`](./05_resources/scripts) | Python scripts for subnetting, scanning, sniffing, and automation |
+| └── [`scripts`](./05_resources/Scripts) | Python scripts for subnetting, scanning, sniffing, and automation |
 | [`06_projects`](./06_projects) | Scenario-based learning and mini-project challenges |
 
 ---
@@ -39,9 +39,8 @@ Whether you're studying for certifications like **CCNA**, **CompTIA Network+**, 
 
 - 📘 Networking or cybersecurity students
 - 🔍 Self-learners building a strong foundation
-- 🎯 Career switchers or IT professionals upskilling
 - 👩‍💻 Ethical hackers & forensics learners
-- 💼 Anyone preparing for CCNA / Network+ / Security+ / Blue Team roles
+- 💼 Anyone preparing for Blue Team roles
 
 ---
 
@@ -71,13 +70,13 @@ Whether you're studying for certifications like **CCNA**, **CompTIA Network+**, 
 
 ## 🗺️ Learning Roadmap
 
-Follow the [📍 Roadmap here](./roadmap.md) to track your journey from beginner to security-aware networker.
+To be added, a work in progress.
 
 ---
 
 ## 🧪 Sample Python Scripts
 
-Located in [`05_resources/scripts`](./05_resources/scripts), you'll find Python scripts for:
+Located in [`05_resources/Scripts`](./05_resources/Scripts), you'll find Python scripts for:
 
 - Subnet calculator
 - Port scanner
@@ -129,9 +128,9 @@ We welcome your contributions! Here are some ways to help:
 
 ## ⭐ Author & Contact
 
-Built with ❤️ by [Your Name]  
-💼 Cybersecurity & Digital Forensics Enthusiast  
-🔗 [LinkedIn](https://www.linkedin.com/in/your-profile) • 📝 [Medium](https://medium.com/@your-handle) • 💻 [Portfolio](https://your-website.com)
+Built with ❤️ by brian (c0mmand3r)  
+💼 Cybersecurity & Digital Forensics  
+🔗 [LinkedIn](https://www.linkedin.com/in/brian-murunga-a0467a263) • 📝 [Medium](https://medium.com/@brian_murunga) • 
 
 ---
 
