@@ -3,6 +3,9 @@
 > Learn networking from the ground up with a security-first mindset.
 
 Welcome to the **Networking for Cybersecurity** repo—a structured, beginner-to-advanced guide designed for students, self-learners, and aspiring InfoSec professionals who want to deeply understand how computer networks work and how to secure them.
+<p align="center">
+  <img src="banner.png" alt="Networking for Cybersecurity Banner" width="100%" />
+</p>
 
 This repository aims to walk you through key concepts, hands-on labs, tools, and real-world scenarios using platforms like **Cisco Packet Tracer**, **Wireshark**, **Nmap**, and Python scripting.
 
