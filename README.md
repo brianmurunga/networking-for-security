@@ -3,8 +3,11 @@
 > Learn networking from the ground up with a security-first mindset.
 
 Welcome to the **Networking for Cybersecurity** repo—a structured, beginner-to-advanced guide designed for students, self-learners, and aspiring InfoSec professionals who want to deeply understand how computer networks work and how to secure them.
+<p align="center">
+  <img src="banner.png" alt="Networking for Cybersecurity Banner" width="100%" />
+</p>
 
-Whether you're studying for certifications like **CCNA**, **CompTIA Network+**, or aiming for roles in **Cybersecurity**, **Forensics**, or **Security Engineering**, this repository walks you through key concepts, hands-on labs, tools, and real-world scenarios using platforms like **Cisco Packet Tracer**, **Wireshark**, **Nmap**, and Python scripting.
+This repository aims to walk you through key concepts, hands-on labs, tools, and real-world scenarios using platforms like **Cisco Packet Tracer**, **Wireshark**, **Nmap**, and Python scripting.
 
 ---
 
@@ -30,7 +33,7 @@ Whether you're studying for certifications like **CCNA**, **CompTIA Network+**, 
 | [`03_pcap_analysis`](./03_pcap_analysis) | Hands-on `.pcap` files for investigating traffic and attacks |
 | [`04_cheatsheets`](./04_cheatsheets) | Quick references for subnetting, ports, OSI model, commands |
 | [`05_resources`](./05_resources) | Books, videos, websites, certifications, plus networking scripts |
-| └── [`scripts`](./05_resources/scripts) | Python scripts for subnetting, scanning, sniffing, and automation |
+| └── [`scripts`](./05_resources/Scripts) | Python scripts for subnetting, scanning, sniffing, and automation |
 | [`06_projects`](./06_projects) | Scenario-based learning and mini-project challenges |
 
 ---
@@ -39,9 +42,8 @@ Whether you're studying for certifications like **CCNA**, **CompTIA Network+**, 
 
 - 📘 Networking or cybersecurity students
 - 🔍 Self-learners building a strong foundation
-- 🎯 Career switchers or IT professionals upskilling
 - 👩‍💻 Ethical hackers & forensics learners
-- 💼 Anyone preparing for CCNA / Network+ / Security+ / Blue Team roles
+- 💼 Anyone preparing for Blue Team roles
 
 ---
 
@@ -71,13 +73,13 @@ Whether you're studying for certifications like **CCNA**, **CompTIA Network+**, 
 
 ## 🗺️ Learning Roadmap
 
-Follow the [📍 Roadmap here](./roadmap.md) to track your journey from beginner to security-aware networker.
+To be added, a work in progress.
 
 ---
 
 ## 🧪 Sample Python Scripts
 
-Located in [`05_resources/scripts`](./05_resources/scripts), you'll find Python scripts for:
+Located in [`05_resources/Scripts`](./05_resources/Scripts), you'll find Python scripts for:
 
 - Subnet calculator
 - Port scanner
@@ -101,10 +103,10 @@ These help automate tasks, analyze traffic, and strengthen your practical skills
 | `00_theory/` | Core networking concepts | ✅ Completed | Solid foundation of topics |
 | `01_tools/` | Tool guides: Wireshark, Nmap, Packet Sniffing | ✅ Completed | Great for beginners |
 | `02_packet_tracer_labs/` | Cisco Packet Tracer labs | 🟡 In Progress | Add more `.pkt` files & setup instructions |
-| `03_pcap_analysis/` | Analyze `.pcap` traffic with Wireshark | 🔲 Not Started | Need `.pcap` samples and analysis guides |
-| `04_cheatsheets/` | Quick-reference guides | 🔲 Not Started | Subnetting, OSI model, commands, etc. |
+| `03_pcap_analysis/` | Analyze `.pcap` traffic with Wireshark | 🟡 In Progress | Need `.pcap` samples and analysis guides |
+| `04_cheatsheets/` | Quick-reference guides | 🟡 In Progress | Subnetting, OSI model, commands, etc. |
 | `05_resources/` | Learning resources + Python scripts | 🟡 In Progress | More useful scripts and links welcome |
-| `06_projects/` | Scenario-based mini projects | 🔲 Not Started | Real-world security/network projects |
+| `06_projects/` | Scenario-based mini projects | 🟡 In Progress | Real-world security/network projects |
 | `roadmap.md` | Suggested learning path | 🔲 Not Started | Beginner-to-advanced flow needed |
 | `README.md` | Project overview | ✅ Updated | Highlights added structure and goals |
 | `LICENSE` | Legal usage file | ✅ Added | MIT License |
@@ -129,9 +131,9 @@ We welcome your contributions! Here are some ways to help:
 
 ## ⭐ Author & Contact
 
-Built with ❤️ by [Your Name]  
-💼 Cybersecurity & Digital Forensics Enthusiast  
-🔗 [LinkedIn](https://www.linkedin.com/in/your-profile) • 📝 [Medium](https://medium.com/@your-handle) • 💻 [Portfolio](https://your-website.com)
+Built with ❤️ by brian (c0mmand3r)  
+💼 Cybersecurity & Digital Forensics  
+🔗 [LinkedIn](https://www.linkedin.com/in/brian-murunga-a0467a263) • 📝 [Medium](https://medium.com/@brian_murunga) • 
 
 ---
 
